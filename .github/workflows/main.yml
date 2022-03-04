@@ -21,5 +21,5 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          file: .github/workflows/main.tf
+          directory: .github/workflows
           framework: terraform 
